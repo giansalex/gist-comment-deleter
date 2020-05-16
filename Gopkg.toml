@@ -1,3 +1,11 @@
 [prune]
   go-tests = true
   unused-packages = true
+
+[[constraint]]
+  name = "github.com/google/go-github"
+  version = "31.0.0"
+
+[[constraint]]
+  branch = "master"
+  name = "golang.org/x/oauth2"
